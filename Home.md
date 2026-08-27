@@ -5,8 +5,8 @@
 > filters:
 >   and:
 >     - file.hasTag("数学")
->     - file.name.startsWith("-")
->     - file.name.endsWith("-")
+>     - file.name.startsWith("---")
+>     - file.name.endsWith("---")
 >     - file.path.contains("微积分")
 > views:
 >   - type: list
@@ -23,8 +23,8 @@
 > filters:
 >   and:
 >     - file.hasTag("数学")
->     - file.name.startsWith("-")
->     - file.name.endsWith("-")
+>     - file.name.startsWith("---")
+>     - file.name.endsWith("---")
 >     - file.path.contains("线性代数")
 > views:
 >   - type: list
@@ -41,8 +41,8 @@
 > filters:
 >   and:
 >     - file.hasTag("数学")
->     - file.name.startsWith("--")
->     - file.name.endsWith("--")
+>     - file.name.startsWith("---")
+>     - file.name.endsWith("---")
 >     - file.path.contains("概率论")
 > views:
 >   - type: list
@@ -108,14 +108,14 @@
 > ```
 
 > [!tip]+ 参考
-> - [[Other/pdf参考资料/高等数学 第7版 上册 同济大学.pdf]]
-> - [[Other/pdf参考资料/高等数学 第7版 下册 同济大学.pdf]]
-> - [[Other/pdf参考资料/线性代数 第5版 同济大学.pdf]]
-> - [[Other/pdf参考资料/概率论与数理统计(浙大四版).pdf]]
+> - [[高等数学 第7版 上册 同济大学.pdf]]
+> - [[高等数学 第7版 下册 同济大学.pdf]]
+> - [[线性代数 第5版 同济大学.pdf]]
+> - [[概率论与数理统计(浙大四版).pdf]]
 > - [[Markdown数学公式]]
-> - [[_assets_/Callouts/Callouts语法|Callouts语法]]
-> - [[_assets_/WolframAlpha|WolframAlpha]]
-> - [[_assets_/公式编辑器|公式编辑器]]
+> - [[Callouts语法]]
+> - [[WolframAlpha]]
+> - [[公式编辑器]]
 
 >[!quote] 名言
 >人类对连续世界的三种基本抽象 
